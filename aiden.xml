@@ -1,7 +1,31 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="1" x="1" y="30">
+  <block type="movement_forward" id="1" x="66" y="70">
     <next>
-      <block type="movement_forward" id="2"></block>
+      <block type="movement_forward" id="2">
+        <next>
+          <block type="movement_leftmotor" id="12" inline="true">
+            <value name="MOVLEFT">
+              <block type="sensor_button" id="104">
+                <field name="OBJECT">LEFT</field>
+              </block>
+            </value>
+            <next>
+              <block type="movement_rightmotor" id="22" inline="true">
+                <value name="MOVRIGHT">
+                  <block type="sensor_button" id="129">
+                    <field name="OBJECT">RIGHT</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="multimedia_playwav" id="96">
+                    <field name="WAV">hi</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
     </next>
   </block>
 </xml>
