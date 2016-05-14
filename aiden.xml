@@ -16,11 +16,6 @@
                     <field name="OBJECT">RIGHT</field>
                   </block>
                 </value>
-                <next>
-                  <block type="multimedia_playwav" id="96">
-                    <field name="WAV">hi</field>
-                  </block>
-                </next>
               </block>
             </next>
           </block>
