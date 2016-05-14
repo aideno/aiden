@@ -5,15 +5,15 @@
         <next>
           <block type="movement_leftmotor" id="12" inline="true">
             <value name="MOVLEFT">
-              <block type="sensor_button" id="104">
-                <field name="OBJECT">LEFT</field>
+              <block type="math_number" id="195">
+                <field name="NUM">1</field>
               </block>
             </value>
             <next>
               <block type="movement_rightmotor" id="22" inline="true">
                 <value name="MOVRIGHT">
-                  <block type="sensor_button" id="129">
-                    <field name="OBJECT">RIGHT</field>
+                  <block type="math_number" id="188">
+                    <field name="NUM">2</field>
                   </block>
                 </value>
               </block>
